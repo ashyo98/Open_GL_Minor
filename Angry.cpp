@@ -4,6 +4,37 @@ Angry::Angry()
 {
 }
 
+void Angry::angryFace_2()
+{
+	Draw gussa;
+
+	glColor3f(1.0f, 0.2588244f, 0.0f);
+	gussa.drawCircle(SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2, 0, 120, 90, 1, 1);  //  face
+	glColor3d(0, 0, 0);
+	gussa.drawCircle(SCREEN_WIDTH / 2 + 48, SCREEN_HEIGHT / 2, 0, 10, 100, 0.7, 1); // right
+	gussa.drawCircle(SCREEN_WIDTH / 2 - 50, SCREEN_HEIGHT / 2, 0, 10, 100, 0.7, 1); // left
+	glColor3f(0.0f, 0.0f, 0.0f);
+
+	gussa.drawArc(SCREEN_WIDTH / 2 - 50, SCREEN_HEIGHT / 2 + 30, 0, 21, 190, 310, 50); // left eyebrow
+	//gussa.drawLine()
+	gussa.drawArc(SCREEN_WIDTH / 2 - 50, SCREEN_HEIGHT / 2 + 30, 0, 22, 190, 310, 50); // left eyebrow
+	gussa.drawArc(SCREEN_WIDTH / 2 - 50, SCREEN_HEIGHT / 2 + 30, 0, 23, 190, 310, 50); // left eyebrow
+	gussa.drawArc(SCREEN_WIDTH / 2 - 50, SCREEN_HEIGHT / 2 + 30, 0, 24, 190, 310, 50); // left eyebrow
+	gussa.drawArc(SCREEN_WIDTH / 2 - 50, SCREEN_HEIGHT / 2 + 30, 0, 25, 190, 310, 50); // left eyebrow
+
+	gussa.drawArc(SCREEN_WIDTH / 2 + 48, SCREEN_HEIGHT / 2 + 30, 0, 21, 230, 350, 50); // right eyebrow
+	gussa.drawArc(SCREEN_WIDTH / 2 + 48, SCREEN_HEIGHT / 2 + 30, 0, 22, 230, 350, 50); // right eyebrow
+	gussa.drawArc(SCREEN_WIDTH / 2 + 48, SCREEN_HEIGHT / 2 + 30, 0, 23, 230, 350, 50); // right eyebrow
+	gussa.drawArc(SCREEN_WIDTH / 2 + 48, SCREEN_HEIGHT / 2 + 30, 0, 24, 230, 350, 50); // right eyebrow
+	gussa.drawArc(SCREEN_WIDTH / 2 + 48, SCREEN_HEIGHT / 2 + 30, 0, 25, 230, 350, 50); // right eyebrow
+
+	gussa.drawLine(SCREEN_WIDTH / 2 - 25, SCREEN_HEIGHT / 2 - 40, SCREEN_WIDTH / 2 + 30, SCREEN_HEIGHT / 2 - 40); // mouth 
+	gussa.drawLine(SCREEN_WIDTH / 2 - 25, SCREEN_HEIGHT / 2 - 41, SCREEN_WIDTH / 2 + 30, SCREEN_HEIGHT / 2 - 41); // mouth 
+	gussa.drawLine(SCREEN_WIDTH / 2 - 25, SCREEN_HEIGHT / 2 - 42, SCREEN_WIDTH / 2 + 30, SCREEN_HEIGHT / 2 - 42); // mouth 
+	gussa.drawLine(SCREEN_WIDTH / 2 - 25, SCREEN_HEIGHT / 2 - 43, SCREEN_WIDTH / 2 + 30, SCREEN_HEIGHT / 2 - 43); // mouth 
+	gussa.drawLine(SCREEN_WIDTH / 2 - 25, SCREEN_HEIGHT / 2 - 44, SCREEN_WIDTH / 2 + 30, SCREEN_HEIGHT / 2 - 44); // mouth
+}
+
 void Angry::angryFace_1()
 {
 	Draw gussa;

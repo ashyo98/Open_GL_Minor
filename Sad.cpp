@@ -31,6 +31,29 @@ void Sad::sadFace_1()
 
 }
 
+void Sad::sadFace_2()
+{
+	Draw dukhi;
+
+	glColor3f(0.897f, 0.7895f, 0.12344f);
+	//glColor3f(1.0f, 0.2588244f, 0.0f);
+	dukhi.drawCircle(SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2, 0, 120, 90, 1, 1);  //  face
+	glColor3d(1, 1, 1);//white
+	dukhi.drawCircle(SCREEN_WIDTH / 2 + 38, SCREEN_HEIGHT / 2 + 50, 0, 20, 100, 1, 1.5); // right
+	dukhi.drawCircle(SCREEN_WIDTH / 2 - 40, SCREEN_HEIGHT / 2 + 50, 0, 20, 100, 1, 1.5); // left
+	glColor3d(0, 0, 0);//black
+	dukhi.drawCircle(SCREEN_WIDTH / 2 + 33, SCREEN_HEIGHT / 2 + 50, 0, 10, 100, 1, 1.5); // right
+	dukhi.drawCircle(SCREEN_WIDTH / 2 - 35, SCREEN_HEIGHT / 2 + 50, 0, 10, 100, 1, 1.5); // left
+
+	GLfloat r1 = 45, theta1 = 30, theta2 = 150, xc, yc;
+	xc = SCREEN_WIDTH / 2.0f;
+	yc = SCREEN_HEIGHT / 2.0f - 70.0f;
+
+	dukhi.drawArc(xc, yc, 0, r1, theta1, theta2, 50); //mouth
+	dukhi.drawArc(xc, yc, 0, r1 + 1, theta1, theta2, 50); //mouth
+	dukhi.drawArc(xc, yc, 0, r1 + 2, theta1, theta2, 50); //mouth
+	dukhi.drawArc(xc, yc, 0, r1 + 3, theta1, theta2, 50); //mouth
+}
 
 Sad::Sad()
 {
