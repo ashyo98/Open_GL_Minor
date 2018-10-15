@@ -1,0 +1,12 @@
+﻿  EmojiMaker.cpp
+c:\users\ashyo98\documents\visual studio 2017\projects\emojimaker\emojimaker.cpp(52): warning C4244: 'argument': conversion from 'float' to 'GLint', possible loss of data
+c:\users\ashyo98\documents\visual studio 2017\projects\emojimaker\emojimaker.cpp(32): warning C4101: 'window2': unreferenced local variable
+  Fear.cpp
+  Neutral.cpp
+c:\users\ashyo98\documents\visual studio 2017\projects\emojimaker\neutral.cpp(7): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\ashyo98\documents\visual studio 2017\projects\emojimaker\neutral.cpp(9): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\ashyo98\documents\visual studio 2017\projects\emojimaker\neutral.cpp(10): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\ashyo98\documents\visual studio 2017\projects\emojimaker\neutral.cpp(27): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+  Generating Code...
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  EmojiMaker.vcxproj -> C:\Users\ashyo98\Documents\Visual Studio 2017\Projects\EmojiMaker\Debug\EmojiMaker.exe
