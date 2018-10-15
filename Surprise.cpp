@@ -10,10 +10,13 @@ void Surprise::SurpriseFace_1()
 	glColor3d(0, 0, 0);
 	achambhit.drawCircle(SCREEN_WIDTH / 2 + 48 + 215, SCREEN_HEIGHT / 2 + 50, 0, 20, 100, 0.7, 1); //RIGHT EYE
 	achambhit.drawCircle(SCREEN_WIDTH / 2 - 50 + 215, SCREEN_HEIGHT / 2 + 50, 0, 20, 100, 0.7, 1); //LEFT EYE
-	glColor3f(1.0f, 1.0f, 1.0f);
+	glColor3f(0.0f, 0.0f, 0.0f);
 
 	//drawCircleHollow( SCREEN_WIDTH / 2, SCREEN_HEIGHT /2-50 , 0, 20, 36 );
-	achambhit.drawArc(SCREEN_WIDTH / 2 - 20 + 280 + 20 + 10, SCREEN_HEIGHT / 2 - 130, 0, 90, 100, 150, 100);
+	achambhit.drawArc(SCREEN_WIDTH / 2 - 20 + 280 + 20 + 10, SCREEN_HEIGHT / 2 - 130, 0, 90, 100, 150, 100); //mouth
+	achambhit.drawArc(SCREEN_WIDTH / 2 - 20 + 280 + 20 + 10, SCREEN_HEIGHT / 2 - 130, 0, 91, 100, 150, 100); //mouth
+	achambhit.drawArc(SCREEN_WIDTH / 2 - 20 + 280 + 20 + 10, SCREEN_HEIGHT / 2 - 130, 0, 92, 100, 150, 100); //mouth
+	achambhit.drawArc(SCREEN_WIDTH / 2 - 20 + 280 + 20 + 10, SCREEN_HEIGHT / 2 - 130, 0, 93, 100, 150, 100); //mouth
 }
 
 Surprise::Surprise()

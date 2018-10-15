@@ -22,6 +22,7 @@ public:
 	void drawCircleHollow(GLfloat x, GLfloat y, GLfloat z, GLfloat radius, GLint numberOfSides);
 	void drawArc(GLfloat x, GLfloat y, GLfloat z, GLfloat radius, int start, int end, GLint numberOfSides);
 	void drawLine(GLfloat x1, GLfloat y1, GLfloat x2, GLfloat y2);
+	void drawSemiCircle(GLfloat x, GLfloat y, GLfloat z, GLfloat radius, GLint numberOfSides, GLfloat factorx, GLfloat factory);
 	~Draw();
 
 };

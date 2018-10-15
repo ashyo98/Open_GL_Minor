@@ -16,7 +16,7 @@ void Neutral::neutralFace_1()
 	tatasth.drawLine(SCREEN_WIDTH / 2 - 35, SCREEN_HEIGHT / 2 - 42, SCREEN_WIDTH / 2 + 40, SCREEN_HEIGHT / 2 - 42); // mouth 
 	tatasth.drawLine(SCREEN_WIDTH / 2 - 35, SCREEN_HEIGHT / 2 - 43, SCREEN_WIDTH / 2 + 40, SCREEN_HEIGHT / 2 - 43); // mouth 
 	tatasth.drawLine(SCREEN_WIDTH / 2 - 35, SCREEN_HEIGHT / 2 - 44, SCREEN_WIDTH / 2 + 40, SCREEN_HEIGHT / 2 - 44); // mouth 
-	tatasth.drawLine(SCREEN_WIDTH / 2 - 35, SCREEN_HEIGHT / 2 - 45, SCREEN_WIDTH / 2 + 40, SCREEN_HEIGHT / 2 - 45); // mouth
+	//tatasth.drawLine(SCREEN_WIDTH / 2 - 35, SCREEN_HEIGHT / 2 - 45, SCREEN_WIDTH / 2 + 40, SCREEN_HEIGHT / 2 - 45); // mouth
 }
 
 void Neutral::neutralFace_2()
@@ -35,7 +35,7 @@ void Neutral::neutralFace_2()
 	tatasth.drawLine(SCREEN_WIDTH / 2 - 60, SCREEN_HEIGHT / 2 + 52, SCREEN_WIDTH / 2 - 20, SCREEN_HEIGHT / 2 + 52); // left eye 
 	tatasth.drawLine(SCREEN_WIDTH / 2 - 60, SCREEN_HEIGHT / 2 + 53, SCREEN_WIDTH / 2 - 20, SCREEN_HEIGHT / 2 + 53); // left eye
 	tatasth.drawLine(SCREEN_WIDTH / 2 - 60, SCREEN_HEIGHT / 2 + 54, SCREEN_WIDTH / 2 - 20, SCREEN_HEIGHT / 2 + 54); // left eye 
-	tatasth.drawLine(SCREEN_WIDTH / 2 - 60, SCREEN_HEIGHT / 2 + 55, SCREEN_WIDTH / 2 - 20, SCREEN_HEIGHT / 2 + 55); // left eye
+	//tatasth.drawLine(SCREEN_WIDTH / 2 - 60, SCREEN_HEIGHT / 2 + 55, SCREEN_WIDTH / 2 - 20, SCREEN_HEIGHT / 2 + 55); // left eye
 
 
 	tatasth.drawLine(SCREEN_WIDTH / 2 + 20, SCREEN_HEIGHT / 2 + 50, SCREEN_WIDTH / 2 + 60, SCREEN_HEIGHT / 2 + 50); //right eye 
@@ -43,7 +43,7 @@ void Neutral::neutralFace_2()
 	tatasth.drawLine(SCREEN_WIDTH / 2 + 20, SCREEN_HEIGHT / 2 + 52, SCREEN_WIDTH / 2 + 60, SCREEN_HEIGHT / 2 + 52); //right eye 
 	tatasth.drawLine(SCREEN_WIDTH / 2 + 20, SCREEN_HEIGHT / 2 + 53, SCREEN_WIDTH / 2 + 60, SCREEN_HEIGHT / 2 + 53); //right eye
 	tatasth.drawLine(SCREEN_WIDTH / 2 + 20, SCREEN_HEIGHT / 2 + 54, SCREEN_WIDTH / 2 + 60, SCREEN_HEIGHT / 2 + 54); //right eye
-	tatasth.drawLine(SCREEN_WIDTH / 2 + 20, SCREEN_HEIGHT / 2 + 55, SCREEN_WIDTH / 2 + 60, SCREEN_HEIGHT / 2 + 55); //right eye
+	//tatasth.drawLine(SCREEN_WIDTH / 2 + 20, SCREEN_HEIGHT / 2 + 55, SCREEN_WIDTH / 2 + 60, SCREEN_HEIGHT / 2 + 55); //right eye
 
 
 	tatasth.drawLine(SCREEN_WIDTH / 2 - 35, SCREEN_HEIGHT / 2 - 40, SCREEN_WIDTH / 2 + 40, SCREEN_HEIGHT / 2 - 40); // mouth 
@@ -51,7 +51,7 @@ void Neutral::neutralFace_2()
 	tatasth.drawLine(SCREEN_WIDTH / 2 - 35, SCREEN_HEIGHT / 2 - 42, SCREEN_WIDTH / 2 + 40, SCREEN_HEIGHT / 2 - 42); // mouth 
 	tatasth.drawLine(SCREEN_WIDTH / 2 - 35, SCREEN_HEIGHT / 2 - 43, SCREEN_WIDTH / 2 + 40, SCREEN_HEIGHT / 2 - 43); // mouth 
 	tatasth.drawLine(SCREEN_WIDTH / 2 - 35, SCREEN_HEIGHT / 2 - 44, SCREEN_WIDTH / 2 + 40, SCREEN_HEIGHT / 2 - 44); // mouth 
-	tatasth.drawLine(SCREEN_WIDTH / 2 - 35, SCREEN_HEIGHT / 2 - 45, SCREEN_WIDTH / 2 + 40, SCREEN_HEIGHT / 2 - 45); // mouth
+	//tatasth.drawLine(SCREEN_WIDTH / 2 - 35, SCREEN_HEIGHT / 2 - 45, SCREEN_WIDTH / 2 + 40, SCREEN_HEIGHT / 2 - 45); // mouth
 }
 
 Neutral::Neutral()
