@@ -1,5 +1,6 @@
-﻿  Surprise.cpp
-c:\users\ashyo98\documents\visual studio 2017\projects\emojimaker\surprise.cpp(9): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\ashyo98\documents\visual studio 2017\projects\emojimaker\surprise.cpp(11): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-c:\users\ashyo98\documents\visual studio 2017\projects\emojimaker\surprise.cpp(12): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+﻿  Neutral.cpp
+c:\users\ashyo98\documents\visual studio 2017\projects\emojimaker\neutral.cpp(7): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\ashyo98\documents\visual studio 2017\projects\emojimaker\neutral.cpp(9): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\ashyo98\documents\visual studio 2017\projects\emojimaker\neutral.cpp(10): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\ashyo98\documents\visual studio 2017\projects\emojimaker\neutral.cpp(60): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
   EmojiMaker.vcxproj -> C:\Users\ashyo98\Documents\Visual Studio 2017\Projects\EmojiMaker\Debug\EmojiMaker.exe
