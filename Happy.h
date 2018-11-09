@@ -5,8 +5,8 @@ class Happy
 public:
 	Happy();
 	void happyFace_1();
-	void happyFace_2();
-	void happyFace_3();
+	void happyFace_2(int);
+	void happyFace_3(int);
 	~Happy();
 };
 

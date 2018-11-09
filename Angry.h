@@ -4,8 +4,8 @@ class Angry
 public:
 	Angry();
     void angryFace_1();
-	void angryFace_2();
-	void angryFace_3();
+	void angryFace_2(int);
+	void angryFace_3(int);
 	~Angry();
 };
 

@@ -6,9 +6,8 @@ public:
 	Disgust();
 
 	void disgustface_1();
-	void disgustface_2();
-	void disgustface_3();
-	void disgustface_4();
+	void disgustface_2(int);
+	void disgustface_3(int);
 
 	~Disgust();
 };
